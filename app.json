@@ -12,6 +12,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.sakib.mybook",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -43,6 +44,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "024d6e15-284b-42a5-8e68-b3d7037e58c9"
+      }
     }
   }
 }
